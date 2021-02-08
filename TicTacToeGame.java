@@ -16,7 +16,7 @@ public class TicTacToeGame {
 	public static void initShape() {
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
-				shape[i][j] = ' '; // 00 = ' ' , 01 = ' ' , 02 = ' ' - 10 = ' ' , 11 = ' ' , 12 = ' ' - 20 = ' ' , 21 = ' ' , 22 = ' '
+				shape[i][j] = ' ';
 			}
 		}
 	}
